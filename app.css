@@ -45,11 +45,6 @@ body {
     margin-bottom: 50px;
 }
 
-.container .input-box i {
-    position: absolute;
-    right: 70px;
-    top: 15px;
-}
 
 .container .input-box {
     margin: 35px 0;
@@ -123,4 +118,5 @@ body {
 
 .container a:hover {
     text-decoration: underline;
+
 }
