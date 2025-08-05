@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("background.png");
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+
+
+.header {
+    margin-bottom: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: bold;
+    background: none;
+}
+.container form {
+    text-align: center;
+}
+.container {
+    width: 500px;
+    height: 500px;
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+    border: 1px solid rgb(61, 61, 61);
+    box-shadow: 0 0 10px rgba(0,0,0.1);
+    border-radius: 10px;
+    color: #eaeaea;
+    
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.container .input-box i {
+    position: absolute;
+    right: 70px;
+    top: 15px;
+}
+
+.container .input-box {
+    margin: 35px 0;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    position: relative;
+}
+
+.input-box input{
+    width: 80%;
+    height: 100%;
+    background-color: transparent;
+    border-radius: 20px;
+    border: none;
+    border: 2px solid rgb(61, 61, 61) ;
+    color: #eaeaea;
+    padding: 5px 10px 5px 15px;
+    font-size: 15px;
+    outline: none;
+}
+
+
+.input-box input::placeholder{
+    color: #fff;
+}
+.container .remember-forget {
+    text-align: center;
+    font-size: 15px;
+    margin-top: -20px;
+}
+
+.remember-forget label input {
+    margin-right: 3px;
+    color: #fff;
+}
+
+.remember-forget a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.container .btn {
+    background-color: #eaeaea;
+    width: 80%;
+    height: 45px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    margin: 25px;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0.1);
+}
+
+.container .btn:active{
+    transform: scale(0.9);
+}
+.container p {
+    text-align: center;
+}
+.container p a{
+    margin: 10px;
+    text-decoration: none;
+    color: #eaeaea;
+    font-weight: bold;
+}
+
+.container a:hover {
+    text-decoration: underline;
+}
